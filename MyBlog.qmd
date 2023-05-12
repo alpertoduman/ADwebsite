@@ -1,6 +1,8 @@
 ---
 title: "MyBlog"
+listing:
+  contents: posts
 ---
 
-Intro to My Blog
+
 
