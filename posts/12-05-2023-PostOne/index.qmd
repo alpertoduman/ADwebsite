@@ -4,6 +4,8 @@ author: "Alper Duman"
 ---
 
 We will jumpstart with a discussion of an interesting model by Stiglitz (2015).
+
+## Model
 Assume that land is a store of wealth and is fixed.
 Then the long-term equilibrium condition in an economy with CRS production function that has capital and labor will be
 
@@ -32,5 +34,21 @@ Similarly define $p^{*} = sK/(1-s)$.
 $K=K^{*}$ in any combination with $p < p^{*}$ is a stable equilibrium and any $p \geq p^{*}$ an unstable equilibrium.
 
 The most interesting observation is that if $K < K^{*}$ and the initial price is too high, the economy experiences a bubble.
+
+## Enter Turkey.
+
+From 1960s onwards, the price of land has been always too high. 
+The real estate bubble is at its peak currently. 
+It is cheaper to buy a house in Florida than to buy one in a shady neighborhood in Istanbul.
+
+We have no data on vacant land ownership distribution. But we can assume that it is less likely to more equal than home ownership. 
+
+We have web scraped all land sales data in 2021 (February-March) from the biggest commercial platform. 
+The land value distribution is highly skewed.
+The top 10%'s share is 55 percent. 
+Our finding is line with one estimation for New York.
+
+Given the fact that land and real estate constitute the biggest components of the wealth in Turkey, we expect dramatic wealth inequalities.
+
 
 
