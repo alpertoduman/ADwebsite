@@ -29,7 +29,7 @@ Steady solutions loci will be $F_{k} = \mu$ and $p = sK/(1-s)$
 Defining $K^{*}$ as the capital solving $F_{k} = \mu$ we can get a stability for any $p$ as $K=K^{*}$.
 Similarly define $p^{*} = sK/(1-s)$. 
 
-$K=K^{*}$ in any combination with $p < p^{*}$ is a stable equilibrium and any $p\geq p^{*}$ an unstable equilibrium.
+$K=K^{*}$ in any combination with $p < p^{*}$ is a stable equilibrium and any $p \geq p^{*}$ an unstable equilibrium.
 
 The most interesting observation is that if $K < K^{*}$ and the initial price is too high, the economy experiences a bubble.
 
