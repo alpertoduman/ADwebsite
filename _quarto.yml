@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "ADwebsite"
+  title: "Political Economy"
   
   navbar:
     left:

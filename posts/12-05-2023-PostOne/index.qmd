@@ -1,5 +1,36 @@
 ---
-title: "Post One"
+title: "Land and Wealth in Turkey"
+author: "Alper Duman"
 ---
 
-Welcome Bitch!
+We will jumpstart with a discussion of an interesting model by Stiglitz (2015).
+Assume that land is a store of wealth and is fixed.
+Then the long-term equilibrium condition in an economy with CRS production function that has capital and labor will be
+
+$$
+\frac{dp (log p)}{dt} = (F_{k}-\mu)
+$$
+simply stating that the return on land should be equal to the return on capital. 
+The other dynamic will be based on the saving decision. 
+
+$$
+\frac{dK}{dt} + \frac{dp}{dt}T = s(F_{k}K - \mu K  + \frac{dp}{dt}T)
+$$
+
+
+Inserting the first equation into the second and using the normalization that $T=1$ we can get
+
+$$
+\frac{dK}{dt} = (sK - (1-s)p)(F_{k}-\mu)
+$$
+
+Steady solutions loci will be $F_{k} = \mu$ and $p = sK/(1-s)$
+
+Defining $K^{*}$ as the capital solving $F_{k} = \mu$ we can get a stability for any $p$ as $K=K^{*}$.
+Similarly define $p^{*} = sK/(1-s)$. 
+
+$K^{*}$ in any combination with $p < p^{*}$ is a stable equilibrium and any $ p\geq p^{*}$ an unstable equilibrium.
+
+The most interesting observation is that if $K < K^{*}$ and the initial price is too high, the economy experiences a bubble.
+
+

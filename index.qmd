@@ -1,11 +1,10 @@
 ---
-title: "ADwebsite"
+title: "Political Economy"
+author: "Alper Duman"
 ---
 
-This is a Quarto website.
+Welcome to the website!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I will write mostly on political economy.
+But I may also entertain myself in indulging interesting topics as well.
+Most of the entries will be in English, occasionally I may write Turkish stuff.

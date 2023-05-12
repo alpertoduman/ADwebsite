@@ -1,9 +1,15 @@
 ---
 title: "About"
+author: "Alper Duman"
 ---
 
-About this site
+** Research
 
-```{r}
-1 + 1
-```
+** Papers
+
+** Codes
+
+** Blog
+
+
+

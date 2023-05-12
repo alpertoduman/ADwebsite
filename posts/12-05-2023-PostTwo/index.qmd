@@ -1,5 +1,7 @@
 ---
-title: "Post Two"
+title: "Wealth Distribution in Turkey"
+author: "Alper Duman"
 ---
 
-Fuck Off!
+I estimate the land value based wealth gini as 0.69.
+
