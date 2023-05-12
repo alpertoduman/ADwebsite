@@ -11,7 +11,21 @@
     "href": "posts/12-05-2023-PostOne/index.html",
     "title": "Land and Wealth in Turkey",
     "section": "",
-    "text": "\\[\n\\frac{dp (log p)}{dt} = (F_{k}-\\mu)\n\\] simply stating that the return on land should be equal to the return on capital. The other dynamic will be based on the saving decision.\n\\[\n\\frac{dK}{dt} + \\frac{dp}{dt}T = s(F_{k}K - \\mu K  + \\frac{dp}{dt}T)\n\\]\nInserting the first equation into the second and using the normalization that \\(T=1\\) we can get\n\\[\n\\frac{dK}{dt} = (sK - (1-s)p)(F_{k}-\\mu)\n\\]\nSteady solutions loci will be \\(F_{k} = \\mu\\) and \\(p = sK/(1-s)\\)\nDefining \\(K^{*}\\) as the capital solving \\(F_{k} = \\mu\\) we can get a stability for any \\(p\\) as \\(K=K^{*}\\). Similarly define \\(p^{*} = sK/(1-s)\\).\n\\(K=K^{*}\\) in any combination with \\(p < p^{*}\\) is a stable equilibrium and any \\(p\\geq p^{*}\\) an unstable equilibrium.\nThe most interesting observation is that if \\(K < K^{*}\\) and the initial price is too high, the economy experiences a bubble."
+    "text": "We will jumpstart with a discussion of an interesting model by Stiglitz (2015)."
+  },
+  {
+    "objectID": "posts/12-05-2023-PostOne/index.html#model",
+    "href": "posts/12-05-2023-PostOne/index.html#model",
+    "title": "Land and Wealth in Turkey",
+    "section": "Model",
+    "text": "Model\nAssume that land is a store of wealth and is fixed. Then the long-term equilibrium condition in an economy with CRS production function that has capital and labor will be\n\\[\n\\frac{dp (log p)}{dt} = (F_{k}-\\mu)\n\\] simply stating that the return on land should be equal to the return on capital. The other dynamic will be based on the saving decision.\n\\[\n\\frac{dK}{dt} + \\frac{dp}{dt}T = s(F_{k}K - \\mu K  + \\frac{dp}{dt}T)\n\\]\nInserting the first equation into the second and using the normalization that \\(T=1\\) we can get\n\\[\n\\frac{dK}{dt} = (sK - (1-s)p)(F_{k}-\\mu)\n\\]\nSteady solutions loci will be \\(F_{k} = \\mu\\) and \\(p = sK/(1-s)\\)\nDefining \\(K^{*}\\) as the capital solving \\(F_{k} = \\mu\\) we can get a stability for any \\(p\\) as \\(K=K^{*}\\). Similarly define \\(p^{*} = sK/(1-s)\\).\n\\(K=K^{*}\\) in any combination with \\(p < p^{*}\\) is a stable equilibrium and any \\(p \\geq p^{*}\\) an unstable equilibrium.\nThe most interesting observation is that if \\(K < K^{*}\\) and the initial price is too high, the economy experiences a bubble."
+  },
+  {
+    "objectID": "posts/12-05-2023-PostOne/index.html#enter-turkey.",
+    "href": "posts/12-05-2023-PostOne/index.html#enter-turkey.",
+    "title": "Land and Wealth in Turkey",
+    "section": "Enter Turkey.",
+    "text": "Enter Turkey.\nFrom 1960s onwards, the price of land has been always too high. The real estate bubble is at its peak currently. It is cheaper to buy a house in Florida than to buy one in a shady neighborhood in Istanbul.\nWe have no data on vacant land ownership distribution. But we can assume that it is less likely to more equal than home ownership.\nWe have web scraped all land sales data in 2021 (February-March) from the biggest commercial platform. The land value distribution is highly skewed. The top 10%’s share is 55 percent. Our finding is line with one estimation for New York.\nGiven the fact that land and real estate constitute the biggest components of the wealth in Turkey, we expect dramatic wealth inequalities."
   },
   {
     "objectID": "MyBlog.html",
