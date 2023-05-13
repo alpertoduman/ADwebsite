@@ -1,0 +1,41 @@
+---
+title: "Türkiye Verimlilik Raporu Üzerine Notlar"
+author: "Alper Duman"
+---
+
+Yakın zamanda Ufuk Akçiğit ve ekibi "Türkiye'de Verimlilik Raporu" çalışmasını sundular. Sunuşu şurada bulabilirsiniz. <https://eaf.ku.edu.tr/wp-content/uploads/2023/05/2023-05-02_ufuk_akcigit.pdf>
+
+Raporda beş temel düzlemde analizler yapılıp çıkarımlar sunulmuş. Her bölümdeki notları ben de ayrı ayrı ele alacağım.
+
+## Verimlilik
+
+1.  İlk olarak verimlilik hesaplarının PENN World Table verileri kullanılarak yapıldığını belirteyim. Ne yazık ki bu veritabanındaki sermaye stok verileri en azından Türkiye için çok tutarlı değil. Bu noktayı başka bir blog yazısında örneklerle açacağım. Ama merak edenler şuraya bakabilirler. <https://efilyayinevi.com/urun/iktisat-ve-toplum-dergisi-142-sayi-sermaye-nedir/>
+2.  Raporda Şekil-3'te ülkelerin 1974 yılındaki Toplam Faktör Verimliliği düzeyine 1 verilerek sonraki yıllardaki karşılaştırması yer alıyor. Türkiye kötü durumda. Kore, Almanya ve ABD iyiler. Türkiye için 1974 yılının reel ücretler açısından en iyi yıllardan biri olduğu tartışılmamış bile. Raporun genelinde, akademisyen ücretleri hariç, ücretlerin reel düzeyi hiç ele alınmamış. Verimlilik için reel ücretler doğrudan bir müteşevvik unsurudur oysa.
+3.  Daha teknik bir mesele daha var. TFV hesapları için hayati olan sermayenin üretim fonksiyonundaki katsayısıdır. Bunu rapor sunuşunda göremiyoruz.
+4.  Kore ile karşılaştırılırken Kore'de TFV katkısının altı çiziliyor. Ancak pek çok çalışma sermaye birikimi katkısının TFV katkısının kat be kat üstünde olduğunu gösteriyor. Türkiye'de sermaye birkiminin neden az olduğunu ve katkısının da Kore'yle karşılaştırıldağında neden güdük kaldığı da tartışılmıyor.
+5.  TFV için elzem olan sermaye stokunun kalitesi (yeni teknolojilerin içkin olduğu makine ve ekipmana mı yatırım yapılmış) ve çalışanların bilgi/becerileri kadar onlara sunulan müşevviklerdir (ücret payı ve reel ücret artışı). Bunlar da hiç ele alınmamış.
+
+## İktisadi Politikalar
+
+6.  Türkiye'de uygulanan iktisadi politikalar belirli bir sermaye birikim rejimi tasarımına bağlı olmadığından büyüme varyansı (ve belirsizlik) OECD ülkeleri ve diğer karşılaştırılabilir ülkelere göre çok yüksektir. Üzerinde durulmayan bu iktisadi politikaların hangi mekanizmaların ürünü olduğudur. Sınıflar hiç ele alınmadığından sınıflar arası ve sınıf içi çatışmaların yüksek düzeydeki belirsizliği yaratan bu iktisadi polikalar kümesini yaratmada rolü de hiç akla gelmememiştir.
+7.  Faizlerin suni bir şekilde düşürülmesi bu belirsizliği daha fazla artırmıştır. Faizler düşürülmeseydi büyük bir resesyon ve reel sektör daralması (borçların ödenememesi ile) sonuçlanabilecek fırsat maliyeti de analiz edilmemiştir.
+8.  Kriz dönemlerindeki zorunluluk dönemleri dışında sürekli cari açık verilmiştir. Cari açık yaratan yapısal (sermaye ve ara malı) dışa bağımlılığı da tartışılmamıştır.
+9.  Uzuzlayan kura rağmen ihracat artışınınn neden başarılamadığı da incelenmemiştir.
+
+## Teknoloji
+
+10. Bu bölümün en özgün çıkarımı Kore'de firmalara verilen teşvikerin önce uyarlamaya daha sonra yenilik yapmaya dönük olduğudur. Türkiye'deki teşvik sisteminin ne denli siyasi ve etkinlikten uzak olduğu tartışılmamıştır.
+11. AR-GE oranlarının düşüklüğü ele alınsa da bunun nedenleri tartışılmamıştır.
+12. Patent sayısının vehameti sergilenmiştir. Ancak patent alması muhtemel araştırmacıların sayısının artması ve genelde yenilik yapma potansiyeli olanların talep görmesi için ne yapılması gerektiği de açık değildir.
+
+## Firma Dinamikleri
+
+13. 
+
+## Beşeri Sermaye
+
+## Yaratıcı Yıkım
+
+## Regülasyonlar
+
+## Firma Teşvikleri
