@@ -33,11 +33,24 @@ Raporda beş temel düzlemde analizler yapılıp çıkarımlar sunulmuş. Her b�
 
 ## Firma Dinamikleri
 
-13. 
+13. Girişimci Bilgi Sistemi'ndeki firma bazlı verilerle yapılan analize göre, büyüyen firmalarda TFV küçüklere göre daha iki-üç kar artış gösteriyor. Sonrasında bir plato var. Neden var açıklanmamıştır.
+
+14. ABD ile karşılaştırıldığında mikro firmaların (1-9 arası çalışanı olan) istihdamdaki payı %35-40 düzeyinde yani oldukça yüksektir. ABD'de bu oran %10 civarındadır.
+
+15. Ne yazık ki toplam sermaye stokdağılımında mikro ve büyük firmaların payı ele alınmamıştır. Büyük firmaların daha fazla istihdam yaratması için çalışan başına çok daha büyük miktarda sermaye malı kullanması gerekmektedir. Türkiye'de muhtemelen birikim oranı düşüklüğü nedeniyle bu geek şart sağlanmamaktadır.
 
 ## Beşeri Sermaye
 
+16. Kadınların istihdam oranı OECD ülkeleri içinde en düşük düzey Türkiye'dedir. Bunun nasıl aşılacağı hiç tartışılmamıştır.
+17. Yükseköğretim katılım oranları da Türkiye'de karşılaştıralabilir ülkere göre çok geridedir. Yükseköğretim azalan getirisi bunun nedenlerinden biridir. Bu mesele de ele alınmamıştır.
+18. Özellikle yeni kurulan üniversitelerin verimsiz olduğu(akademik personel başına yayın kriteriyle) belirtilmiştir. Üniversitelere talebin bu ölçütle bir ilgisi olup olmadığı sorgulanmamıştır.
+
 ## Yaratıcı Yıkım
+
+19. Yeni giren firmaların çıkanlardan verimsiz olduğu iddia edilmiştir. Ne yazık ki Girişimci Bilgi Sistemi'ndeki firma verilerinin gerçeği ne kadar yansıttığı tartışmalıdır. Örneğin 2021 yılı için 900 bin firmanın 400 bini zarar etmiş görünmektedir. Bu pek de rastlanır bir durum değildir.
+20. Verimli firmaların neden çıktığı da sorgulanmamıştır.
+21. Sayıları bir avucu geçmeyen KİT (Kamu İktisadi Teşekküleri'nin) verimsiz olduğu ve AR-GE'ye çok az harcama yaptıkları iddia edilmiştir. Ağırlıkları bu denli küçük olan bu örneklem yerine özel sektör firmalarına odaklanılması daha yerinde olurdu.
+22. 
 
 ## Regülasyonlar
 
