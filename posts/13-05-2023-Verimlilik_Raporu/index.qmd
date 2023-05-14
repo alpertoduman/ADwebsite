@@ -18,8 +18,11 @@ Raporda beş temel düzlemde analizler yapılıp çıkarımlar sunulmuş. Her b�
 ## İktisadi Politikalar
 
 6.  Türkiye'de uygulanan iktisadi politikalar belirli bir sermaye birikim rejimi tasarımına bağlı olmadığından büyüme varyansı (ve belirsizlik) OECD ülkeleri ve diğer karşılaştırılabilir ülkelere göre çok yüksektir. Üzerinde durulmayan bu iktisadi politikaların hangi mekanizmaların ürünü olduğudur. Sınıflar hiç ele alınmadığından sınıflar arası ve sınıf içi çatışmaların yüksek düzeydeki belirsizliği yaratan bu iktisadi polikalar kümesini yaratmada rolü de hiç akla gelmememiştir.
+
 7.  Faizlerin suni bir şekilde düşürülmesi bu belirsizliği daha fazla artırmıştır. Faizler düşürülmeseydi büyük bir resesyon ve reel sektör daralması (borçların ödenememesi ile) sonuçlanabilecek fırsat maliyeti de analiz edilmemiştir.
+
 8.  Kriz dönemlerindeki zorunluluk dönemleri dışında sürekli cari açık verilmiştir. Cari açık yaratan yapısal (sermaye ve ara malı) dışa bağımlılığı da tartışılmamıştır.
+
 9.  Uzuzlayan kura rağmen ihracat artışınınn neden başarılamadığı da incelenmemiştir.
 
 ## Teknoloji
