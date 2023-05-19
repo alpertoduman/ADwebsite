@@ -1,0 +1,32 @@
+---
+title: "Türkiye'de Servet 2: Dağılım ve Dinamikler"
+author: "Alper Duman"
+---
+
+## Servet  ve Sermaye Ayrımı
+
+## Servet Nasıl Dağılıyor
+
+Kim bilir. Servet verisi olmadığı için dağılımı da bilmiyoruz. Ancak elimizde servetin son derece eşitsiz dağıldığına dair dolaylı ipuçları var. Sözgelimi TCMB'nin yaptığı ama yayınlamadığı Hanehalkı Finansman ve Tüketim Anketi -2019 (<https://www.tcmb.gov.tr/wps/wcm/connect/7d740a9c-694d-4537-884f-dc51f6e56fd4/wp2201.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7d740a9c-694d-4537-884f-dc51f6e56fd4-o1QgyUx>) Tablo 5.1'e göre hanehalklarının %12,5'unun birden fazla evi var. Yani gayrimenkul zenginliği -ki en eşit dağılmasını beklediğimiz kalem- son derece eşitsiz dağılım göstermektedir. Daha somut olarak 15 milyon civarı hane kendi evinde oturuyorken, geri kalan yaklaşık 25 milyon konut, bu 15 milyonun muhtemelen en zengin alt-grubu olan 3 milyondan az hanehalkının sahipliğindedir.
+
+Finansal varlıklarda durum çok daha vahimdir. Hisse senetleri toplam varlığının %86'sı en zengin %3'ün sahipliğindedir (bkz. <https://www.ekonomim.com/kose-yazisi/hisse-senedinin-86si-36nin-elinde/676147>).
+
+Döviz ya da TL mevudatlarından uçurum daha korkunçtur. 2022 yılı içinde 760 bin mevduat sahibinin payı tüm mevduat toplamı içinde yüzde 69,3'e çıkmıştı (bkz. [https://www.cumhuriyet.com.tr/ekonomi/milyoner-sayisi-katlandi-hesabinda-1-milyon-tl-ve-üstü-para-bulunan-kisi-sayisi-yüzde-82-artti-2027129](https://www.cumhuriyet.com.tr/ekonomi/milyoner-sayisi-katlandi-hesabinda-1-milyon-tl-ve-üstü-para-bulunan-kisi-sayisi-yüzde-82-artti-2027129) ). Dikkat edin 40 milyon potansiyel mevduat sahibi içinde bu %2'den az bir oranı ifade eder. Eurobond, yatırım fonu ve diğer finansal varlıkların dağılımının aşağı yukarı bu minvalde olması beklenir.
+
+Şirket hisse sahipliğinin piyasa değeri dağılımı hakkında Fortune ve Forbes en zenginler listeleri dışında hiçbir bilgimiz yok. Yüzbinlerce şirketin sahipleri kim, onu dahi bilmiyoruz. Şirketler halka açık olmadıklarında şirket sahiplerinin zenginliğini ölçmemize yardım edecek bilanço verileri de ulaşılmaz. Velakin bu kalemin de ultra eşitsiz dağilması gerekir; sonuçta şirket sahibi olanların toplam sayısı 1 milyon kişiyi geçmez. O bir 1 milyon içinden en zengin 500 kişi de muhtemelen toplam şirket hisse piyasa değerinin %50'sinden fazlasına sahiptir.
+
+## Elalem Ne Diyor
+
+Türkiye kendi istatistiklerini üretmeyince elalem boş durmuyor. Onlar kendi varsayımları ve modellerine dayanarak Türkiye'de servet ve servet dağılımı üzerine veriler üretiyorlar. Bunlardan biri de World Inequality Database (<https://wid.world/country/turkey/>). İşin acı tarafı bu veritabanından elde edilen sonuçları kullananların (bazı durumlarda kendim de dahilim bu gruba) verilerin içine pek girmeyip varsayımların ikna ediciliğine dikkat etmemesidir. Aşağıdaki grafikte görüldüğü gibi WID veritabanında en zengin yetişkin yüzde birin eşik zenginlik değeri 2021 yılında 750 bin TL olarak varsayılmış. Takdir edersiniz ki bu inanılmaz düşük bir tutardır. Ortalama bir evin fiyatı 2021 yılında bu tutar kadardı.
+
+WID'in servet eşitsizlik hesaplamalarıysa görece daha tutarlı geliyor bana. Türkiye'deki arsa değerlerinden hesapladığım servet eşitsizlik Gini katsayısı 0.70 ki, WID değeri de bundan çok uzak değil. En zengin %10'un payı yüzde 67. İki ölçüt aynı değil ama eşitsizliğin derinliği hakkında verdikleri sinyal örtüşüyor. Üstelik Credit Souisse verilerinden de Gini katsayısını 0.71 olarak bulmuşlar (Davies v.d. 2010).
+
+## 
+
+## Stiglitz Modeli
+
+## Kıssadan Hisse
+
+Türkiye Ekonomisi dersimdeki öğrencilerime şu öneği veririm. Arçelik şirketini alın. 60 sene önce bu şirketi kurmak yerine Levent mahalllesindeki arsaları aldığınızı düşünün. Günümüze gelin. Arçelik'in toplam piyasa değeri ve 6 yıllı karlarının kümülatif şimdiki değerini Levent'teki toplam arsa değerinin şimdiki değeri ile karşılaştırın. Hangisi sizce daha yüksektir?
+
+Türkiye ekonomisinde ne yazık ki siyaset dinamiklerinin mali belirleyicisi gayrimenkul rantları olduğu için gayrimenkul vergisi yok gibi bir şeydir. Sermaye stoku kadar vergilendirilse ve imar kanunları harfiyen uygulansa servetin büyük kısmı gayrimenkul ve arsa yerine üretime yönelik sermaye stokunda dolayısıyla şirket hisse piyasa değerlerinde ve finansal varlıklarda olurdu.

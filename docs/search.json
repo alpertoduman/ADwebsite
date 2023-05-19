@@ -28,6 +28,34 @@
     "text": "Enter Turkey.\nFrom 1960s onwards, the price of land has been always too high. The real estate bubble is at its peak currently. It is cheaper to buy a house in Florida than to buy one in a shady neighborhood in Istanbul.\nWe have no data on vacant land ownership distribution. But we can assume that it is less likely to more equal than home ownership.\nWe have web scraped all land sales data in 2021 (February-March) from the biggest commercial platform. The land value distribution is highly skewed. The top 10%’s share is 55 percent. Our finding is line with one estimation for New York.\nGiven the fact that land and real estate constitute the biggest components of the wealth in Turkey, we expect dramatic wealth inequalities."
   },
   {
+    "objectID": "posts/19-05-2023-Servet/index.html#servet-nasıl-dağılıyor",
+    "href": "posts/19-05-2023-Servet/index.html#servet-nasıl-dağılıyor",
+    "title": "Türkiye’de Servet 2: Dağılım ve Dinamikler",
+    "section": "Servet Nasıl Dağılıyor",
+    "text": "Servet Nasıl Dağılıyor\nKim bilir. Servet verisi olmadığı için dağılımı da bilmiyoruz. Ancak elimizde servetin son derece eşitsiz dağıldığına dair dolaylı ipuçları var. Sözgelimi TCMB’nin yaptığı ama yayınlamadığı Hanehalkı Finansman ve Tüketim Anketi -2019 (https://www.tcmb.gov.tr/wps/wcm/connect/7d740a9c-694d-4537-884f-dc51f6e56fd4/wp2201.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7d740a9c-694d-4537-884f-dc51f6e56fd4-o1QgyUx) Tablo 5.1’e göre hanehalklarının %12,5’unun birden fazla evi var. Yani gayrimenkul zenginliği -ki en eşit dağılmasını beklediğimiz kalem- son derece eşitsiz dağılım göstermektedir. Daha somut olarak 15 milyon civarı hane kendi evinde oturuyorken, geri kalan yaklaşık 25 milyon konut, bu 15 milyonun muhtemelen en zengin alt-grubu olan 3 milyondan az hanehalkının sahipliğindedir.\nFinansal varlıklarda durum çok daha vahimdir. Hisse senetleri toplam varlığının %86’sı en zengin %3’ün sahipliğindedir (bkz. https://www.ekonomim.com/kose-yazisi/hisse-senedinin-86si-36nin-elinde/676147).\nDöviz ya da TL mevudatlarından uçurum daha korkunçtur. 2022 yılı içinde 760 bin mevduat sahibinin payı tüm mevduat toplamı içinde yüzde 69,3’e çıkmıştı (bkz. https://www.cumhuriyet.com.tr/ekonomi/milyoner-sayisi-katlandi-hesabinda-1-milyon-tl-ve-üstü-para-bulunan-kisi-sayisi-yüzde-82-artti-2027129 ). Dikkat edin 40 milyon potansiyel mevduat sahibi içinde bu %2’den az bir oranı ifade eder. Eurobond, yatırım fonu ve diğer finansal varlıkların dağılımının aşağı yukarı bu minvalde olması beklenir.\nŞirket hisse sahipliğinin piyasa değeri dağılımı hakkında Fortune ve Forbes en zenginler listeleri dışında hiçbir bilgimiz yok. Yüzbinlerce şirketin sahipleri kim, onu dahi bilmiyoruz. Şirketler halka açık olmadıklarında şirket sahiplerinin zenginliğini ölçmemize yardım edecek bilanço verileri de ulaşılmaz. Velakin bu kalemin de ultra eşitsiz dağilması gerekir; sonuçta şirket sahibi olanların toplam sayısı 1 milyon kişiyi geçmez. O bir 1 milyon içinden en zengin 500 kişi de muhtemelen toplam şirket hisse piyasa değerinin %50’sinden fazlasına sahiptir."
+  },
+  {
+    "objectID": "posts/19-05-2023-Servet/index.html#elalem-ne-diyor",
+    "href": "posts/19-05-2023-Servet/index.html#elalem-ne-diyor",
+    "title": "Türkiye’de Servet 2: Dağılım ve Dinamikler",
+    "section": "Elalem Ne Diyor",
+    "text": "Elalem Ne Diyor\nTürkiye kendi istatistiklerini üretmeyince elalem boş durmuyor. Onlar kendi varsayımları ve modellerine dayanarak Türkiye’de servet ve servet dağılımı üzerine veriler üretiyorlar. Bunlardan biri de World Inequality Database (https://wid.world/country/turkey/). İşin acı tarafı bu veritabanından elde edilen sonuçları kullananların (bazı durumlarda kendim de dahilim bu gruba) verilerin içine pek girmeyip varsayımların ikna ediciliğine dikkat etmemesidir. Aşağıdaki grafikte görüldüğü gibi WID veritabanında en zengin yetişkin yüzde birin eşik zenginlik değeri 2021 yılında 750 bin TL olarak varsayılmış. Takdir edersiniz ki bu inanılmaz düşük bir tutardır. Ortalama bir evin fiyatı 2021 yılında bu tutar kadardı.\nWID’in servet eşitsizlik hesaplamalarıysa görece daha tutarlı geliyor bana. Türkiye’deki arsa değerlerinden hesapladığım servet eşitsizlik Gini katsayısı 0.70 ki, WID değeri de bundan çok uzak değil. En zengin %10’un payı yüzde 67. İki ölçüt aynı değil ama eşitsizliğin derinliği hakkında verdikleri sinyal örtüşüyor. Üstelik Credit Souisse verilerinden de Gini katsayısını 0.71 olarak bulmuşlar (Davies v.d. 2010)."
+  },
+  {
+    "objectID": "posts/19-05-2023-Servet/index.html#stiglitz-modeli",
+    "href": "posts/19-05-2023-Servet/index.html#stiglitz-modeli",
+    "title": "Türkiye’de Servet 2: Dağılım ve Dinamikler",
+    "section": "Stiglitz Modeli",
+    "text": "Stiglitz Modeli"
+  },
+  {
+    "objectID": "posts/19-05-2023-Servet/index.html#kıssadan-hisse",
+    "href": "posts/19-05-2023-Servet/index.html#kıssadan-hisse",
+    "title": "Türkiye’de Servet 2: Dağılım ve Dinamikler",
+    "section": "Kıssadan Hisse",
+    "text": "Kıssadan Hisse\nTürkiye Ekonomisi dersimdeki öğrencilerime şu öneği veririm. Arçelik şirketini alın. 60 sene önce bu şirketi kurmak yerine Levent mahalllesindeki arsaları aldığınızı düşünün. Günümüze gelin. Arçelik’in toplam piyasa değeri ve 6 yıllı karlarının kümülatif şimdiki değerini Levent’teki toplam arsa değerinin şimdiki değeri ile karşılaştırın. Hangisi sizce daha yüksektir?\nTürkiye ekonomisinde ne yazık ki siyaset dinamiklerinin mali belirleyicisi gayrimenkul rantları olduğu için gayrimenkul vergisi yok gibi bir şeydir. Sermaye stoku kadar vergilendirilse ve imar kanunları harfiyen uygulansa servetin büyük kısmı gayrimenkul ve arsa yerine üretime yönelik sermaye stokunda dolayısıyla şirket hisse piyasa değerlerinde ve finansal varlıklarda olurdu."
+  },
+  {
     "objectID": "posts/13-05-2023-Verimlilik_Raporu/index.html",
     "href": "posts/13-05-2023-Verimlilik_Raporu/index.html",
     "title": "Türkiye Verimlilik Raporu Üzerine Notlar",
@@ -95,7 +123,7 @@
     "href": "MyBlog.html",
     "title": "MyBlog",
     "section": "",
-    "text": "Alper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\nNo matching items"
+    "text": "Alper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
