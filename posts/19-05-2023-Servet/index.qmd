@@ -3,7 +3,7 @@ title: "Türkiye'de Servet 2: Dağılım ve Dinamikler"
 author: "Alper Duman"
 ---
 
-## Servet  ve Sermaye Ayrımı
+## Servet ve Sermaye Ayrımı
 
 ## Servet Nasıl Dağılıyor
 
