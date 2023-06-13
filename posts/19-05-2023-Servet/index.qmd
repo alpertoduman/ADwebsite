@@ -69,4 +69,4 @@ Bir süre sonra dinamik kararlı hale geliyor.
 plot(log(Y), W/P)
 ```
 
-Grafiğin y-eksenine dikkat edelim. Emeğin payının karın payına oranını gösteriyor.
+Grafiğin y-eksenine dikkat edelim. Emeğin payının karın payına oranını gösteriyor. Bakalım.
