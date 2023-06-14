@@ -22,9 +22,9 @@ bibliography: ITN.bib
 
 -   There emerged a few studies (reports) by World Bank and by the Government of Turkey estimating mostly the long-run stock impacts of the earthquakes.
 
--   [@WorldBank2023] estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.
+-   @WorldBank2023 estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.
 
--   [@CBB2023] reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates.
+-   @CBB2023 reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates.
 
 ## What we Do
 
@@ -42,15 +42,25 @@ bibliography: ITN.bib
 
 -   Third, the spillover effects are convergent.
 
-## Related Literature
+## Related Literature I
 
--   International Trade Spillovers
+-   International Trade Spillovers: (@FagioloMastrorillo2014,
 
--   Network cascades and aggregate volatility on input-output networks
+-   Network cascades and aggregate volatility on input-output networks: (@Gabaix2011, @Carvalho2014, @AcemogluEtAl2015)
 
--   Natural disasters and the effects on firm supply chain networks
+-   Natural disasters and the effects on firm supply chain networks: (@HallegatteEtAl2022, @TOKUI201759, @Inoue:2019aa, @Pichler2021)
 
--   Inter-city trade estimates and determinants
+-   Inter-city trade estimates and determinants: @TomoyaWrona2018
+
+## Related literature II  {.smaller}
+
+-   Our paper contributes in various ways to the existing literature. First, we model and study the spillover effects of shocks based on cities rather than the shocks affecting firms, sectors or countries.
+
+-   Second, we incorporate the complex interactions due to the natural disasters by taking into account that city sales and purchases are interrelated with varying parameters.
+
+-   Third, we show the hub-and-spoke nature of the inter-city trade network and emphasize its dampening effect on the economic consequences of natural disasters that hit peripheral cities
+
+-   Fourth, we extend the finding that the spillover (indirect) effects dominate the direct (first-round) effects in the international and firm supply chain networks to inter-city trade context.
 
 ## Network I
 
