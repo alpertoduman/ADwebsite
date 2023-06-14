@@ -1,0 +1,285 @@
+---
+title: "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey"
+author: "Alper Duman"
+format: revealjs
+editor: visual
+---
+
+## Introduction I
+
+-   Two devastating earthquakes hit the Southeast region in Turkey on the 6th of February, 2023. The first one had a strength of 7.8 and the second one, in nine hours after the first one, had a 7.5 strength on Richter scale.
+
+-   These earthquakes have caused widespread damage in 11 cities, in which around 14 million people (about 16% of the population) live.
+
+-   The economic effects of the earthquakes are complex phenomenon. In general, there should be both a time and a stock/flow dimension of the economic effects
+
+## Introduction II
+
+![Earthquake Strength Map](EarthquakeMap.png){alt="Earthquake Strength Map"}
+
+## Introduction III
+
+-   There emerged a few studies (reports) by World Bank and by the Government of Turkey estimating mostly the long-run stock impacts of the earthquakes.
+
+-   [@WorldBank2023] estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.
+
+-   [@CBB2023] reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates.
+
+## What we Do
+
+-   We estimate the effects of the earthquake on the value added by tracing the direct and indirect (spillover) effects through the inter-city trade flows.
+
+-   We find that demand shock is much more important than the supply shock. The total effect of the demand and supply shocks amounts to 6% of the GDP in Turkey.
+
+## Underlying Assumptions
+
+-   We rely on three main assumptions.
+
+-   First, intercity trade is related structurally to the value-added (GDP) both at the city and the country scale.
+
+-   Second, intercity trade sales and purchases are proxies for inter-firm and intra-firm transactions and forward/backward linkages through intercity trade matrix play a similar role as they do on input-output tables of the countries.
+
+-   Third, the spillover effects are convergent.
+
+## Related Literature
+
+-   International Trade Spillovers
+
+-   Network cascades and aggregate volatility on input-output networks
+
+-   Natural disasters and the effects on firm supply chain networks
+
+-   Inter-city trade estimates and determinants
+
+## Network I
+
+-   The network approach takes the trade flows and converts it into a weighted adjacency matrix, that is
+
+$$
+A_{i,j} = 
+\begin{bmatrix}
+ a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+  a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+     \vdots  & \vdots  & \ddots & \vdots  \\
+   a_{n,1} & a_{n,2} & \cdots & a_{n,n} 
+  \end{bmatrix}
+$$
+
+in which $a_{ij}$ simply is the sale of city $i$ to city $j$ .
+
+## Network II
+
+| City     | Eigenvector Centrality | Trade Share (%) |
+|----------|------------------------|-----------------|
+| İstanbul | 1                      | 34.33           |
+| Ankara   | 0.766                  | 11.94           |
+| İzmir    | 0.395                  | 7.11            |
+| Adana    | 0.117                  | 1.96            |
+| Maraş    | 0.043                  | 0.8             |
+| Hatay    | 0.082                  | 1.74            |
+
+: Centralities of Cities
+
+## Network III
+
+![Hub_and_Spoke Network](ICTnetwork.png){#fig-network alt="Hub_and_Spoke Network"}
+
+## Model I
+
+-   We revise and synthesize the models in [@KireyevLeonidov2015] and in [@TOKUI201759] trace the network spillovers after exogenous shocks.
+
+-   A sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is $W_{ij}$.
+
+-   First we introduce a vector of demand shocks $d$, as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, $\Delta M_{i}$.
+
+## Model II
+
+-   The initial demand shock $\Delta M_{i}$ is distributed proportionally among suppliers to the epicenter city and by definition creates a vector of shocks to the supplier cities' sales revenue. The shock to sales revenue reduce their demand and creates a cascade of sales shocks in first neighbors $\Delta \overrightarrow{M_{j}}$.
+
+-   Assume a negative demand shock on any city. Its purchases will be affected negatively. Assuming that its marginal propensity to consume is 1, the decline in nominal demand of the epicenter city is $\Delta Y_{i}$, It follows immediately that its purchases decline by $\Delta M_{i}$.
+
+## Model III {.smaller}
+
+-   A negative purchasing power shock of an epicenter city will translate to sales shocks of the cities directly selling to the epicenter city
+
+$$
+\Delta M_{j} = \displaystyle \sum_{i=1}^{n} \Delta w_{ij}
+$$
+
+-   Naturally declines will be proportional to the city $i$'s sales share in city $j$'s total purchases.
+
+$$
+\Delta w_{ij} = w_{ij} \frac{\Delta M_{j}}{M_{j}}
+$$
+
+## Model IV
+
+-   In the supplier cities decline in sales revenue will lead to decline in purchases.
+
+$$
+\frac{\Delta\overrightarrow{M_{i} } } {M_{i} } = \alpha_{i} + \beta_{i}(\frac{ \Delta S_{i} }{S_{i}}) + \epsilon_{i}
+$$
+
+-   Therefore,
+
+$$
+\Delta \overrightarrow{M_{i}} = M_{i} (1-(1-\frac{\Delta S_{i}}{S_{i}})^{\beta_{i}})
+$$
+
+## Model V {.smaller}
+
+-   In order to estimate the $\beta$ coefficient, which related the decline in sales to the declines in purchases across cities, we employ simple OLS regression.
+
+-   We assume that each city is homogeneous in terms of its dependence of sales on purchases.
+
+-   We take that sensitivity parameter, $\beta$ , to be important. If $\beta = 0.5$, then as sales revenue go down by 100, then the total purchases will decline by 50, for all cities.
+
+-   The decline however will be distributed across cities according to their weights as suppliers.
+
+-   Indirect effects, spillovers, will begin after the second-round and continue onward till the marginal declines in purchases converge to zero.
+
+## Model VI {.smaller}
+
+-   The supply shock will have the similar characteristics, but operating through declines in sales rather than purchases.
+
+$$
+\Delta \overrightarrow{S_{i}} = S_{i} (1-(1-\frac{\Delta M_{i}}{M_{i}})^{\gamma_{i}})
+$$
+
+-   Spillover effects summarized in the term $$\Delta \overrightarrow{S_{i}}$$ then will depend on the partial effects of decline in purchases given the $\gamma$ coefficient in each city.
+
+-   The $\gamma$ parameter in return is related to the capacity of cities to substitute inputs that could not be purchased.
+
+## Demand Shock I
+
+-   Suppose there are three cities with an intercity sales matrix, Adana, Hatay and İstanbul.
+
+-   The latter one is unaffected by the earthquake. The intercity sales matrix is given as below.
+
+-   So Adana sell 30 units each to Hatay and to İstanbul. Hatay on the other hand sells 10 units to Adana and 60 units to İstanbul.
+
+$$
+ W_{ij}=
+\begin{bmatrix}
+ 60 & 30 & 30  \\
+  10 & 50 & 60 \\
+ 50 & 40 & 30
+ \end{bmatrix}
+$$
+
+## Demand Shock II
+
+-   Now suppose there are % 10 shocks to Adana and Hatay, so that their purchases will decline by 12 units each.
+-   Hatay will lose 1 units of sales to Adana and İstanbul will lose 5 units of sales to Adana.
+-   Similarly Adana's sales to Hatay will go down by 3 units whereas İstanbul's sales to Hatay will be reduced by 4 units.
+
+$\Delta w_{ij}= \begin{bmatrix} 6 & 3 & 0 \\ 1 & 5 & 0 \\ 5 & 4 & 0 \end{bmatrix}$
+
+## Demand Shock III
+
+-   Assume that sensitivities of each city's purchases to their sales $\beta_{i}$'s are 0.5.
+
+-   That is if a city loses 4 units of sales then its purchases will decline by 2 units. That is if a city loses 4 units of sales then its purchases will decline by 2 units.
+
+-   After the first-round effects, the new sales matrix will be
+
+$$
+ \overrightarrow{W_{ij}}=
+\begin{bmatrix}
+ 54 & 27 & 30  \\
+  9 & 45 & 60 \\
+ 45 & 36  & 30
+ \end{bmatrix}
+$$
+
+## Demand Shock IV
+
+-   Thus total first-round effects will be 24 units of decline in overall sales.
+
+-   However, once we take into account second-round and further spillover effects the total network effect will be much larger.
+
+-   Assume we have 50 rounds, then the result will be
+
+$$
+W_{ij}^{t=50}=
+\begin{pmatrix}
+ 49.67 & 25.27 & 27.74  \\
+  8.28 & 42.11 &  55.48 \\
+ 41.39& 33.69 & 27.74 
+ \end{pmatrix}
+$$
+
+## Demand Shock V
+
+-   Therefore overall network effect (decline in total sales) will be 48 units, the double of the first-round effects.
+
+-   Furthermore assume that the total sales in these three cities are 1.5 times the total GDP.
+
+-   Then we can estimate the overall network effects as follows.
+
+-   The total decline of 48 units would imply a decline of 32 units in GDP, that is a 13.3% decline in GDP (given that the benchmark GDP is 240 as the total sales were 360 to begin with).
+
+-   This estimate is the total flow effect of the earthquakes in this simple example.
+
+## Underlying Shocks {.scrollable .smaller}
+
+| City          | Residential | Non-Residential | Infrastructure | Total |
+|---------------|-------------|-----------------|----------------|-------|
+| Hatay         | 41.8        | 40.9            | 33.9           | 39.6  |
+| Kahramanmaraş | 29          | 28.6            | 23.8           | 27.8  |
+| Gaziantep     | 10.1        | 10.7            | 9.9            | 10.2  |
+| Malatya       | 15          | 12.9            | 12             | 13.9  |
+| Adıyaman      | 26.8        | 25.5            | 20.5           | 25.3  |
+| Adana         | 4.3         | 4.7             | 4.3            | 4.4   |
+| Diyarbakır    | 5.3         | 4.9             | 5.4            | 5.2   |
+| Osmaniye      | 12          | 13.9            | 10.8           | 12.3  |
+| Şanlıurfa     | 4.6         | 5.5             | 4.9            | 4.9   |
+| Elazığ        | 1.8         | 1.2             | 1.6            | 1.5   |
+| Kilis         | 7.2         | 6.7             | 5.7            | 6.8   |
+
+: Capital-Stock Damages and Sources of Shocks
+
+## Results
+
+|                      | Demand | Supply | Total |
+|----------------------|--------|--------|-------|
+| Equal Shocks (20 %)  | 5.88   | 1.91   | 7.79  |
+| Heterogeneous Shocks | 3.9    | 2      | 5.9   |
+
+: Network Effects of the Earthquakes
+
+## Robustness I
+
+![Industrial Production Index, Turkey](InsutryIndex.png){alt="Industrial Production Index, Turkey"}
+
+## Robustness II
+
+-   We underline the fact that disaster relief expenditures in the region will boost the production and income which we do not consider in our analysis.
+
+-   By the early April 2023, the total amount of injection in terms of construction projects in the region had reached to 150 billion TL, which is around 10% of the income in the region.
+
+-   Even though such an injection will be coming in installments, the expectations of increased government transfers with the bouncing local economic facilities will compensate the devastating economic effects of the earthquakes, at least partially.
+
+-   In addition, 2023 is an election year. We have seen expansionary fiscal and monetary policies geared towards the election by the current government.
+
+## Discussion and Conclusion I
+
+-   Inter-city sales are crucial for the functioning of a national economy.
+
+-   There are very few studies on the structure of inter-city sales, probably due to lack of data.
+
+-   We make use of the inter-city trade network in Turkey to assess the complex effects of the earthquakes of February, 2023.
+
+-   We find that the spillover effects (indirect effects) are considerably greater than the direct effects.
+
+-   We combine the demand and supply shocks in a unified framework.
+
+## Discussion and Conclusion II
+
+-   There exist three ways that the analysis can be improved.
+
+-   First, the absorption coefficients (the parameter reflecting the dependence of purchases on sales) can be estimated at a dis-aggregated city level.
+
+-   Second, substitution coefficients can be calibrated or estimated.
+
+-   Third, the stability of the link between the GDP and total inter-city sales can we established empirically.

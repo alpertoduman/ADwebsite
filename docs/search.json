@@ -123,7 +123,7 @@
     "href": "MyBlog.html",
     "title": "MyBlog",
     "section": "",
-    "text": "Alper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\nNo matching items"
+    "text": "Alper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlper Duman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -166,5 +166,187 @@
     "title": "Türkiye’de Kapitalist Servet",
     "section": "Çarpıklıklar",
     "text": "Çarpıklıklar\nYüzyıllık kapitalist serüvenin sonunda Türkiye’de istihdam oranı %48 ve GSYH’dan emeğin aldığı pay %30 civarındadır.\nTemel dinamikleri anlamak için basit bir modelle başlayalım. Esin kaynağımız Prezoworski (1993).\nVerili bir dönemde toplam gelir ücret ve karın toplamından oluşur.\n\\(Y_{t} = W_{t} + P_{t}\\)\nNormal şartlarda işçiler verimli olmak için durumlarının iyileşmesini isterler. Bir önceki dönemdeki ücretlerinin iyileştirilmesi gerekir.\n\\(W_{t}^{d}=W_{t-1} + \\alpha P_{t-1}\\)\nÇok küçük de olsa \\(\\alpha\\) kadar bir miktar bir önceki dönemin karlarından ücretlere aktarılmalıdır ki işçiler verimli çalışsınlar.\nÜretim doğal olarak işçilerden daha çok kapitalistlerin tercihlerine bağlıdır.\n\\(Y_{t+1} = W_{t} + (1 + s/k)P_{t}\\)\nBurada \\(k\\) sermaye-üretim katsayısı ve \\(s\\) kapitalistlerin tasarruf oranıdır.\nKararlı denge noktasına\n\\(W_{t}^{d}=W_{t}\\)\nolduğu durumda ulaşılır.\n\nY <- as.numeric()\ns <- 0.2\nalpha <- 0.01\n#s <- seq(0.01:0.9, by=0.01)\n# r <- seq(0.01:0.9, by=0.01)\nk <- 4\nP0 <- 70\nW0 <- 30\nW <- as.numeric()\nP <- as.numeric()\n\nKarın toplam gelirdeki başlangıç oranını %70 aldık. $s$, tasarruf oranı %20, sermaye-üretim oranı, \\(k\\) olarak 4 ve \\(\\alpha=0.01\\) aldık.\n\nY[1] <- W0 + (1 + s/k)*P0\nW[1] <- W0 + alpha*P0\nP[1] <- Y[1]-W[1]\nfor (i in 2:200) {\nY[i] <- W[i-1] + (1+s/k)*P[i-1]\nW[i] <- W[i-1] + alpha*P[i-1]\nP[i] <- Y[i]-W[i]\n}\n\nBir süre sonra dinamik kararlı hale geliyor.\n\nplot(log(Y), W/P)\n\n\n\n\nGrafiğin y-eksenine dikkat edelim. Emeğin payının karın payına oranını gösteriyor. Bakalım."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#introduction-i",
+    "href": "posts/EEFS_Berlin/index.html#introduction-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Introduction I",
+    "text": "Introduction I\n\nTwo devastating earthquakes hit the Southeast region in Turkey on the 6th of February, 2023. The first one had a strength of 7.8 and the second one, in nine hours after the first one, had a 7.5 strength on Richter scale.\nThese earthquakes have caused widespread damage in 11 cities, in which around 14 million people (about 16% of the population) live.\nThe economic effects of the earthquakes are complex phenomenon. In general, there should be both a time and a stock/flow dimension of the economic effects"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#introduction-ii",
+    "href": "posts/EEFS_Berlin/index.html#introduction-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Introduction II",
+    "text": "Introduction II\n\nEarthquake Strength Map"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#introduction-iii",
+    "href": "posts/EEFS_Berlin/index.html#introduction-iii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Introduction III",
+    "text": "Introduction III\n\nThere emerged a few studies (reports) by World Bank and by the Government of Turkey estimating mostly the long-run stock impacts of the earthquakes.\n[@WorldBank2023] estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.\n[@CBB2023] reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#what-we-do",
+    "href": "posts/EEFS_Berlin/index.html#what-we-do",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "What we Do",
+    "text": "What we Do\n\nWe estimate the effects of the earthquake on the value added by tracing the direct and indirect (spillover) effects through the inter-city trade flows.\nWe find that demand shock is much more important than the supply shock. The total effect of the demand and supply shocks amounts to 6% of the GDP in Turkey."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#underlying-assumptions",
+    "href": "posts/EEFS_Berlin/index.html#underlying-assumptions",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Underlying Assumptions",
+    "text": "Underlying Assumptions\n\nWe rely on three main assumptions.\nFirst, intercity trade is related structurally to the value-added (GDP) both at the city and the country scale.\nSecond, intercity trade sales and purchases are proxies for inter-firm and intra-firm transactions and forward/backward linkages through intercity trade matrix play a similar role as they do on input-output tables of the countries.\nThird, the spillover effects are convergent."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#related-literature",
+    "href": "posts/EEFS_Berlin/index.html#related-literature",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Related Literature",
+    "text": "Related Literature\n\nInternational Trade Spillovers\nNetwork cascades and aggregate volatility on input-output networks\nNatural disasters and the effects on firm supply chain networks\nInter-city trade estimates and determinants"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#network-i",
+    "href": "posts/EEFS_Berlin/index.html#network-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Network I",
+    "text": "Network I\n\nThe network approach takes the trade flows and converts it into a weighted adjacency matrix, that is\n\n\\[\nA_{i,j} =\n\\begin{bmatrix}\na_{1,1} & a_{1,2} & \\cdots & a_{1,n} \\\\\n  a_{2,1} & a_{2,2} & \\cdots & a_{2,n} \\\\\n     \\vdots  & \\vdots  & \\ddots & \\vdots  \\\\\n   a_{n,1} & a_{n,2} & \\cdots & a_{n,n}\n  \\end{bmatrix}\n\\]\nin which \\(a_{ij}\\) simply is the sale of city \\(i\\) to city \\(j\\) ."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#network-ii",
+    "href": "posts/EEFS_Berlin/index.html#network-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Network II",
+    "text": "Network II\n\nCentralities of Cities\n\n\nCity\nEigenvector Centrality\nTrade Share (%)\n\n\n\n\nİstanbul\n1\n34.33\n\n\nAnkara\n0.766\n11.94\n\n\nİzmir\n0.395\n7.11\n\n\nAdana\n0.117\n1.96\n\n\nMaraş\n0.043\n0.8\n\n\nHatay\n0.082\n1.74"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#network-iii",
+    "href": "posts/EEFS_Berlin/index.html#network-iii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Network III",
+    "text": "Network III\n\nFigure 1: Hub_and_Spoke Network"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-i",
+    "href": "posts/EEFS_Berlin/index.html#model-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model I",
+    "text": "Model I\n\nWe revise and synthesize the models in [@KireyevLeonidov2015] and in [@TOKUI201759] trace the network spillovers after exogenous shocks.\nA sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is \\(W_{ij}\\).\nFirst we introduce a vector of demand shocks \\(d\\), as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, \\(\\Delta M_{i}\\)."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-ii",
+    "href": "posts/EEFS_Berlin/index.html#model-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model II",
+    "text": "Model II\n\nThe initial demand shock \\(\\Delta M_{i}\\) is distributed proportionally among suppliers to the epicenter city and by definition creates a vector of shocks to the supplier cities’ sales revenue. The shock to sales revenue reduce their demand and creates a cascade of sales shocks in first neighbors \\(\\Delta \\overrightarrow{M_{j}}\\).\nAssume a negative demand shock on any city. Its purchases will be affected negatively. Assuming that its marginal propensity to consume is 1, the decline in nominal demand of the epicenter city is \\(\\Delta Y_{i}\\), It follows immediately that its purchases decline by \\(\\Delta M_{i}\\)."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-iii",
+    "href": "posts/EEFS_Berlin/index.html#model-iii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model III",
+    "text": "Model III\n\nA negative purchasing power shock of an epicenter city will translate to sales shocks of the cities directly selling to the epicenter city\n\n\\[\n\\Delta M_{j} = \\displaystyle \\sum_{i=1}^{n} \\Delta w_{ij}\n\\]\n\nNaturally declines will be proportional to the city \\(i\\)’s sales share in city \\(j\\)’s total purchases.\n\n\\[\n\\Delta w_{ij} = w_{ij} \\frac{\\Delta M_{j}}{M_{j}}\n\\]"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-iv",
+    "href": "posts/EEFS_Berlin/index.html#model-iv",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model IV",
+    "text": "Model IV\n\nIn the supplier cities decline in sales revenue will lead to decline in purchases.\n\n\\[\n\\frac{\\Delta\\overrightarrow{M_{i} } } {M_{i} } = \\alpha_{i} + \\beta_{i}(\\frac{ \\Delta S_{i} }{S_{i}}) + \\epsilon_{i}\n\\]\n\nTherefore,\n\n\\[\n\\Delta \\overrightarrow{M_{i}} = M_{i} (1-(1-\\frac{\\Delta S_{i}}{S_{i}})^{\\beta_{i}})\n\\]"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-v",
+    "href": "posts/EEFS_Berlin/index.html#model-v",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model V",
+    "text": "Model V\n\nIn order to estimate the \\(\\beta\\) coefficient, which related the decline in sales to the declines in purchases across cities, we employ simple OLS regression.\nWe assume that each city is homogeneous in terms of its dependence of sales on purchases.\nWe take that sensitivity parameter, \\(\\beta\\) , to be important. If \\(\\beta = 0.5\\), then as sales revenue go down by 100, then the total purchases will decline by 50, for all cities.\nThe decline however will be distributed across cities according to their weights as suppliers.\nIndirect effects, spillovers, will begin after the second-round and continue onward till the marginal declines in purchases converge to zero."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#model-vi",
+    "href": "posts/EEFS_Berlin/index.html#model-vi",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Model VI",
+    "text": "Model VI\n\nThe supply shock will have the similar characteristics, but operating through declines in sales rather than purchases.\n\n\\[\n\\Delta \\overrightarrow{S_{i}} = S_{i} (1-(1-\\frac{\\Delta M_{i}}{M_{i}})^{\\gamma_{i}})\n\\]\n\nSpillover effects summarized in the term \\[\\Delta \\overrightarrow{S_{i}}\\] then will depend on the partial effects of decline in purchases given the \\(\\gamma\\) coefficient in each city.\nThe \\(\\gamma\\) parameter in return is related to the capacity of cities to substitute inputs that could not be purchased."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#demand-shock-i",
+    "href": "posts/EEFS_Berlin/index.html#demand-shock-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Demand Shock I",
+    "text": "Demand Shock I\n\nSuppose there are three cities with an intercity sales matrix, Adana, Hatay and İstanbul.\nThe latter one is unaffected by the earthquake. The intercity sales matrix is given as below.\nSo Adana sell 30 units each to Hatay and to İstanbul. Hatay on the other hand sells 10 units to Adana and 60 units to İstanbul.\n\n\\[\nW_{ij}=\n\\begin{bmatrix}\n60 & 30 & 30  \\\\\n  10 & 50 & 60 \\\\\n50 & 40 & 30\n\\end{bmatrix}\n\\]"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#demand-shock-ii",
+    "href": "posts/EEFS_Berlin/index.html#demand-shock-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Demand Shock II",
+    "text": "Demand Shock II\n\nNow suppose there are % 10 shocks to Adana and Hatay, so that their purchases will decline by 12 units each.\nHatay will lose 1 units of sales to Adana and İstanbul will lose 5 units of sales to Adana.\nSimilarly Adana’s sales to Hatay will go down by 3 units whereas İstanbul’s sales to Hatay will be reduced by 4 units.\n\n\\(\\Delta w_{ij}= \\begin{bmatrix} 6 & 3 & 0 \\\\ 1 & 5 & 0 \\\\ 5 & 4 & 0 \\end{bmatrix}\\)"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#demand-shock-iii",
+    "href": "posts/EEFS_Berlin/index.html#demand-shock-iii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Demand Shock III",
+    "text": "Demand Shock III\n\nAssume that sensitivities of each city’s purchases to their sales \\(\\beta_{i}\\)’s are 0.5.\nThat is if a city loses 4 units of sales then its purchases will decline by 2 units. That is if a city loses 4 units of sales then its purchases will decline by 2 units.\nAfter the first-round effects, the new sales matrix will be\n\n\\[\n\\overrightarrow{W_{ij}}=\n\\begin{bmatrix}\n54 & 27 & 30  \\\\\n  9 & 45 & 60 \\\\\n45 & 36  & 30\n\\end{bmatrix}\n\\]"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#demand-shock-iv",
+    "href": "posts/EEFS_Berlin/index.html#demand-shock-iv",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Demand Shock IV",
+    "text": "Demand Shock IV\n\nThus total first-round effects will be 24 units of decline in overall sales.\nHowever, once we take into account second-round and further spillover effects the total network effect will be much larger.\nAssume we have 50 rounds, then the result will be\n\n\\[\nW_{ij}^{t=50}=\n\\begin{pmatrix}\n49.67 & 25.27 & 27.74  \\\\\n  8.28 & 42.11 &  55.48 \\\\\n41.39& 33.69 & 27.74\n\\end{pmatrix}\n\\]"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#demand-shock-v",
+    "href": "posts/EEFS_Berlin/index.html#demand-shock-v",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Demand Shock V",
+    "text": "Demand Shock V\n\nTherefore overall network effect (decline in total sales) will be 48 units, the double of the first-round effects.\nFurthermore assume that the total sales in these three cities are 1.5 times the total GDP.\nThen we can estimate the overall network effects as follows.\nThe total decline of 48 units would imply a decline of 32 units in GDP, that is a 13.3% decline in GDP (given that the benchmark GDP is 240 as the total sales were 360 to begin with).\nThis estimate is the total flow effect of the earthquakes in this simple example."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#underlying-shocks",
+    "href": "posts/EEFS_Berlin/index.html#underlying-shocks",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Underlying Shocks",
+    "text": "Underlying Shocks\n\nCapital-Stock Damages and Sources of Shocks\n\n\n\n\n\n\n\n\n\nCity\nResidential\nNon-Residential\nInfrastructure\nTotal\n\n\n\n\nHatay\n41.8\n40.9\n33.9\n39.6\n\n\nKahramanmaraş\n29\n28.6\n23.8\n27.8\n\n\nGaziantep\n10.1\n10.7\n9.9\n10.2\n\n\nMalatya\n15\n12.9\n12\n13.9\n\n\nAdıyaman\n26.8\n25.5\n20.5\n25.3\n\n\nAdana\n4.3\n4.7\n4.3\n4.4\n\n\nDiyarbakır\n5.3\n4.9\n5.4\n5.2\n\n\nOsmaniye\n12\n13.9\n10.8\n12.3\n\n\nŞanlıurfa\n4.6\n5.5\n4.9\n4.9\n\n\nElazığ\n1.8\n1.2\n1.6\n1.5\n\n\nKilis\n7.2\n6.7\n5.7\n6.8"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#results",
+    "href": "posts/EEFS_Berlin/index.html#results",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Results",
+    "text": "Results\n\nNetwork Effects of the Earthquakes\n\n\n\nDemand\nSupply\nTotal\n\n\n\n\nEqual Shocks (20 %)\n5.88\n1.91\n7.79\n\n\nHeterogeneous Shocks\n3.9\n2\n5.9"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#robustness-i",
+    "href": "posts/EEFS_Berlin/index.html#robustness-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Robustness I",
+    "text": "Robustness I\n\nIndustrial Production Index, Turkey"
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#robustness-ii",
+    "href": "posts/EEFS_Berlin/index.html#robustness-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Robustness II",
+    "text": "Robustness II\n\nWe underline the fact that disaster relief expenditures in the region will boost the production and income which we do not consider in our analysis.\nBy the early April 2023, the total amount of injection in terms of construction projects in the region had reached to 150 billion TL, which is around 10% of the income in the region.\nEven though such an injection will be coming in installments, the expectations of increased government transfers with the bouncing local economic facilities will compensate the devastating economic effects of the earthquakes, at least partially.\nIn addition, 2023 is an election year. We have seen expansionary fiscal and monetary policies geared towards the election by the current government."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#discussion-and-conclusion-i",
+    "href": "posts/EEFS_Berlin/index.html#discussion-and-conclusion-i",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Discussion and Conclusion I",
+    "text": "Discussion and Conclusion I\n\nInter-city sales are crucial for the functioning of a national economy.\nThere are very few studies on the structure of inter-city sales, probably due to lack of data.\nWe make use of the inter-city trade network in Turkey to assess the complex effects of the earthquakes of February, 2023.\nWe find that the spillover effects (indirect effects) are considerably greater than the direct effects.\nWe combine the demand and supply shocks in a unified framework."
+  },
+  {
+    "objectID": "posts/EEFS_Berlin/index.html#discussion-and-conclusion-ii",
+    "href": "posts/EEFS_Berlin/index.html#discussion-and-conclusion-ii",
+    "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
+    "section": "Discussion and Conclusion II",
+    "text": "Discussion and Conclusion II\n\nThere exist three ways that the analysis can be improved.\nFirst, the absorption coefficients (the parameter reflecting the dependence of purchases on sales) can be estimated at a dis-aggregated city level.\nSecond, substitution coefficients can be calibrated or estimated.\nThird, the stability of the link between the GDP and total inter-city sales can we established empirically."
   }
 ]
