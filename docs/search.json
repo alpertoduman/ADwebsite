@@ -186,7 +186,7 @@
     "href": "posts/EEFS_Berlin/index.html#introduction-iii",
     "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
     "section": "Introduction III",
-    "text": "Introduction III\n\nThere emerged a few studies (reports) by World Bank and by the Government of Turkey estimating mostly the long-run stock impacts of the earthquakes.\n[@WorldBank2023] estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.\n[@CBB2023] reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates."
+    "text": "Introduction III\n\nThere emerged a few studies (reports) by World Bank and by the Government of Turkey estimating mostly the long-run stock impacts of the earthquakes.\n(Bank 2023) estimates are on the range of 3.8% of GDP. In nominal terms, World Bank estimates that total expected damage will be 34.2 billion dollars. Government of Turkey reports a potential damage of about 90 billion dollars.\n(CBB 2023) reports a 9.5% of the GDP in 2023. Both of these reports are based mainly on long-term and stock estimates."
   },
   {
     "objectID": "posts/EEFS_Berlin/index.html#what-we-do",
@@ -235,7 +235,7 @@
     "href": "posts/EEFS_Berlin/index.html#model-i",
     "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
     "section": "Model I",
-    "text": "Model I\n\nWe revise and synthesize the models in [@KireyevLeonidov2015] and in [@TOKUI201759] trace the network spillovers after exogenous shocks.\nA sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is \\(W_{ij}\\).\nFirst we introduce a vector of demand shocks \\(d\\), as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, \\(\\Delta M_{i}\\)."
+    "text": "Model I\n\nWe revise and synthesize the models in (Kireyev and Leonidov 2015) and in (Tokui, Kawasaki, and Miyagawa 2017) trace the network spillovers after exogenous shocks.\nA sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is \\(W_{ij}\\).\nFirst we introduce a vector of demand shocks \\(d\\), as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, \\(\\Delta M_{i}\\)."
   },
   {
     "objectID": "posts/EEFS_Berlin/index.html#model-ii",
@@ -347,6 +347,6 @@
     "href": "posts/EEFS_Berlin/index.html#discussion-and-conclusion-ii",
     "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
     "section": "Discussion and Conclusion II",
-    "text": "Discussion and Conclusion II\n\nThere exist three ways that the analysis can be improved.\nFirst, the absorption coefficients (the parameter reflecting the dependence of purchases on sales) can be estimated at a dis-aggregated city level.\nSecond, substitution coefficients can be calibrated or estimated.\nThird, the stability of the link between the GDP and total inter-city sales can we established empirically."
+    "text": "Discussion and Conclusion II\n\nThere exist three ways that the analysis can be improved.\nFirst, the absorption coefficients (the parameter reflecting the dependence of purchases on sales) can be estimated at a dis-aggregated city level.\nSecond, substitution coefficients can be calibrated or estimated.\nThird, the stability of the link between the GDP and total inter-city sales can we established empirically.\n\n\n\n\n\n\n\nBank, World. 2023. “Global Rapid Post-Disaster Damage Estimation (GRADE) Report.” The World Bank and the Global Facility for Disaster Reduction and Recovery (GFDRR) Report.\n\n\nCBB. 2023. “TÜRKİYE EARTHQUAKES RECOVERY AND RECONSTRUCTION ASSESSMENT.” Government Report.\n\n\nKireyev, Alexei, and Andrei Leonidov. 2015. “Network Effects of International Shocks and Spillovers.” IMF Working Paper 15/149.\n\n\nTokui, Joji, Kazuyasu Kawasaki, and Tsutomu Miyagawa. 2017. “The Economic Impact of Supply Chain Disruptions from the Great East-Japan Earthquake.” Japan and the World Economy 41: 59–70. https://doi.org/https://doi.org/10.1016/j.japwor.2016.12.005."
   }
 ]

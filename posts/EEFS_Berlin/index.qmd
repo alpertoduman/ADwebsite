@@ -3,6 +3,7 @@ title: "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Networ
 author: "Alper Duman"
 format: revealjs
 editor: visual
+bibliography: ITN.bib
 ---
 
 ## Introduction I
