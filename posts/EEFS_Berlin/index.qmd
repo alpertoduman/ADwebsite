@@ -87,7 +87,7 @@ in which $a_{ij}$ simply is the sale of city $i$ to city $j$ .
 
 ## Model I
 
--   We revise and synthesize the models in [@KireyevLeonidov2015] and in [@TOKUI201759] trace the network spillovers after exogenous shocks.
+-   We revise and synthesize the models in @KireyevLeonidov2015 and in @TOKUI201759 trace the network spillovers after exogenous shocks.
 
 -   A sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is $W_{ij}$.
 

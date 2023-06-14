@@ -235,7 +235,7 @@
     "href": "posts/EEFS_Berlin/index.html#model-i",
     "title": "The Potential Effects of the 2023 Earthquakes on Inter-city Trade Network in Turkey",
     "section": "Model I",
-    "text": "Model I\n\nWe revise and synthesize the models in (Kireyev and Leonidov 2015) and in (Tokui, Kawasaki, and Miyagawa 2017) trace the network spillovers after exogenous shocks.\nA sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is \\(W_{ij}\\).\nFirst we introduce a vector of demand shocks \\(d\\), as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, \\(\\Delta M_{i}\\)."
+    "text": "Model I\n\nWe revise and synthesize the models in Kireyev and Leonidov (2015) and in Tokui, Kawasaki, and Miyagawa (2017) trace the network spillovers after exogenous shocks.\nA sales-matrix where rows denote the sales of cities and columns denote the purchases of the cities is \\(W_{ij}\\).\nFirst we introduce a vector of demand shocks \\(d\\), as a percentage of decline in incomes of the earthquake cities. In the first-round, the effect is an immediate demand shock originating from these epicenter cities, \\(\\Delta M_{i}\\)."
   },
   {
     "objectID": "posts/EEFS_Berlin/index.html#model-ii",
